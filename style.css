@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Cont{
+width: 100vw; 
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.Cont__Cajita{
+    border: .1rem solid wheat;
+    width: 200px;
+    height: 200px;
+
+}
+
+.Cont__Cajita--relativo{
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.Cont__Cajita--absolute{
+    position: absolute;
+
+}
+
+.Cont__Cajita--pink{
+background-color: pink;
+position: relative;
+top: 40px;
+left: 50px;
+z-index: 1; /* Mover una capa hacia arriba*/
+
+}
+
+.Cont__Cajita--green{
+background-color: green;
+position: absolute;
+}
+
+.Cont__Cajita--orange{
+    background-color: orange;
+    top: 20px;
+    right: 20px;
+}
+
+.Cont__Cajita--red{
+    background-color: red;
+    top: 20px;
+    left: 20px;
+}
+
+.Cont__Cajita--gray{
+    background-color: gray;
+    bottom: 20px;
+    left: 20px;
+}
+
+.Cont__Cajita--blue{
+    background-color: blue;
+    bottom: 20px;
+    right: 20px;
+}
